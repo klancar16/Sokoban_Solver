@@ -1,0 +1,10 @@
+8 9 6
+   XXXXX
+ XXX...X
+XX.....X
+X.***.XX
+X.M*..X
+X.**.XX
+XXX..X
+  X..X
+  XXXX

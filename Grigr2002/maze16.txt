@@ -1,0 +1,12 @@
+11 11 9
+  XXXXXXXXX
+  X...X...X
+  X...J...X
+XXXX.XJX.XX
+X......X.X
+X..JXXMX.X
+XX.*GG*X.X
+ X.*GG*G.X
+ XJX.XJXXX
+ X.....X
+ XXXXXXX

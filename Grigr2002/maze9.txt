@@ -1,0 +1,11 @@
+8 10 7
+  XXXX
+ XX..X
+XX.J.XXX
+X.JM*..X
+X..*.XGX
+XX*.*..X
+ X.G.G.X
+ X.XJXXX
+ X...X
+ XXXXX

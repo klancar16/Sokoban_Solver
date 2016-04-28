@@ -1,0 +1,9 @@
+12 8 6
+       XXXX
+XXXXXXXX.MX
+X..J.J.J.JX
+X.X*G..GX.XX
+X....G.XG..X
+XXJXXX.G...X
+ X.....XXXXX
+ XXXXXXX
