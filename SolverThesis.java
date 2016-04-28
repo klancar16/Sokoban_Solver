@@ -72,16 +72,15 @@ public class SolverThesis {
 		for(int i = 0; i < boxes.length; i++) {
 			boxesPos[2*i] = boxes[i].coor.x;
 			boxesPos[2*i +1] = boxes[i].coor.y;
-			System.out.println(i + ": " + boxesPos[2*i] + " " + boxesPos[2*i +1] );
+			//System.out.println(i + ": " + boxesPos[2*i] + " " + boxesPos[2*i +1] );
 		}
 		/*for(int i = 0; i < goals.length; i++) {
 			System.out.println(goals[i].coor.toString());
 		}*/
 		//System.out.println(goals[0].coor.toString());
-		printMap(groundMap);
-		//solve(boxesPos, new byte[]{startPos.x, startPos.y}, new byte[]{startPos.x, startPos.y}, (short) 0, false);
+		//printMap(groundMap);
+		solve(boxesPos, new byte[]{startPos.x, startPos.y}, new byte[]{startPos.x, startPos.y}, (short) 0, false);
 		
-		//solve(boxesPos, new byte[]{startPos.x, startPos.y}, new byte[]{startPos.x, startPos.y}, (short) 0, (short) 0, false);
 		System.out.println(nana);
 		System.out.println(solutions.size());
 		for(int i  = 0; i < solutions.size(); i++) {
@@ -133,7 +132,7 @@ public class SolverThesis {
 		}
 		
 		if(solved(cur, boxesPos)) {
-			//minStep = (short) (step+1);
+			minStep = (short) (step+1);
 			String string = writeOut();
 			System.out.println(step);
 			solutions.add(string);
@@ -344,16 +343,12 @@ public class SolverThesis {
 		
 		for(int i = 1; i < groundMap.length-1; i++) {
 			//boolean deady = false;
-			boolean up = false;
-			boolean down = false;
 			int idx = 0;
 			int len = 0;
 			for(int j = 0; j < groundMap[i].length; j++) {
 				if(idx == 0) {
 					if(groundMap[i][j] == 'X') {
 						idx = j+1;
-						up = false;
-						down = false;
 					}
 				}
 				else {
@@ -361,49 +356,32 @@ public class SolverThesis {
 						len = j - idx;
 						if(len == 0) {
 							idx = 0;
-							continue;
 						}
-						addToDeadlocks(true, i, idx, len);
-						idx = 0;
-						len = 0;
+						else {
+							addToDeadlocks(true, i, idx, len);
+							idx = 0;
+							len = 0;
+						}
+						j = j -1;
 					}
 					else if(groundMap[i][j] == 'G') {
 						idx = 0;
-						continue;
 					}
 					else {
-						if(j == idx) {
-							if(groundMap[i-1][j] == 'X') up = true;
-							if(groundMap[i+1][j] == 'X') down = true;
-							if(!up && !down) {
-								idx = 0;
-							}
-						}
-						else {
-							if((up && groundMap[i-1][j] == 'X') || (down && groundMap[i+1][j] == 'X')) {
-								if(up && groundMap[i-1][j] != 'X') up = false;
-								if(down && groundMap[i+1][j] != 'X') down = false;
-								continue;
-							}
-							else idx = 0;
-						}
+						if((groundMap[i-1][j] != 'X') && (groundMap[i+1][j] != 'X')) idx = 0;
 					}
 				}
 			}
 		}
 		
-		for(int i = 1; i < groundMap.length-1; i++) {
+		for(int i = 1; i < groundMap[1].length-1; i++) {
 			//boolean deady = false;
-			boolean right = false;
-			boolean left = false;
 			int idx = 0;
 			int len = 0;
 			for(int j = 0; j < groundMap.length; j++) {
 				if(idx == 0) {
 					if(groundMap[j][i] == 'X') {
 						idx = j+1;
-						right = false;
-						left = false;
 					}
 				}
 				else {
@@ -411,32 +389,19 @@ public class SolverThesis {
 						len = j - idx;
 						if(len == 0) {
 							idx = 0;
-							continue;
 						}
-						addToDeadlocks(false, i, idx, len);
-						idx = 0;
-						len = 0;
+						else {
+							addToDeadlocks(false, i, idx, len);
+							idx = 0;
+							len = 0;
+						}
+						j = j -1;
 					}
 					else if(groundMap[j][i] == 'G') {
 						idx = 0;
-						continue;
 					}
 					else {
-						if(j == idx) {
-							if(groundMap[j][i-1] == 'X') left = true;
-							if(groundMap[j][i+1] == 'X') right = true;
-							if(!left && !right) {
-								idx = 0;
-							}
-						}
-						else {
-							if((left && groundMap[j][i-1] == 'X') || (right && groundMap[j][i+1] == 'X')) {
-								if(left && groundMap[j][i-1] != 'X') left = false;
-								if(right && groundMap[j][i+1] != 'X') right = false;
-								continue;
-							}
-							else idx = 0;
-						}
+						if((groundMap[j][i-1] != 'X') && (groundMap[j][i+1] != 'X')) idx = 0;
 					}
 				}
 			}
@@ -463,7 +428,7 @@ public class SolverThesis {
 
 	private static void addToDeadlocks(boolean isX, int coor, int idx, int len) {
 		// TODO Auto-generated method stub
-		System.out.println(isX + " " + " " + coor + " " + idx + " " + len);
+		//System.out.println(isX + " " + " " + coor + " " + idx + " " + len);
 		
 		if(isX) {
 			for(int i = idx; i < idx+len; i++) {
@@ -706,6 +671,14 @@ public class SolverThesis {
 					map[i-1][j] = 'M';
 					startPos = new Coordinate((byte) (i-1), j);
 					groundMap[i-1][j] = '.';
+				}
+				else if(curChar == '*') {
+					map[i-1][j] = '*';
+					goals[noOfGoals] = new Goal((byte) (i-1), j);
+					noOfGoals++;
+					boxes[noOfBoxes] = new Box((byte) (i-1), j, false);
+					noOfBoxes++;
+					groundMap[i-1][j] = 'G';
 				}
 			}
 		}
