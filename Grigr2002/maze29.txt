@@ -1,9 +1,0 @@
-8 8 8
- XXXXX..
- X...X..
-XX.X.XXX
-X..*.J.X
-X..***.X
-XG*.*.MX
-X...*..X
-XXXXXXXX
