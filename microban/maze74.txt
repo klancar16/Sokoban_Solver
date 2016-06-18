@@ -1,0 +1,8 @@
+10 7 4
+ XXXXXXX
+XX.GGGGXX
+X...XXXXXX
+X...J.J.MX
+XXX..J.J.X
+  XXX....X
+    XXXXXX

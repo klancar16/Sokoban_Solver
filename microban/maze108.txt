@@ -1,0 +1,14 @@
+9 13 5
+  XXXXXXX
+  X.....X
+  X.X.X.X
+  X.M.J.X
+XXX.XXX.X
+X...XXX.X
+X.J..XXGX
+XX.J..XGX
+ XX.J..GX
+  XX.JXGX
+   XX.XGX
+    X...X
+    XXXXX

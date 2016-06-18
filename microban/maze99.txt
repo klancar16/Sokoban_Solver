@@ -1,0 +1,9 @@
+8 8 4
+XXXXXXX
+X.MX..X
+XGJ...X
+XG.X.JXX
+XGJX...X
+XG.X.J.X
+X..X...X
+XXXXXXXX

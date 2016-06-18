@@ -1,0 +1,18 @@
+7 17 4
+XXXXX
+X...XXX
+XG.G..X
+X...X.X
+XX.X..X
+ XMJJ.X
+ X....X
+ X..XXX
+ XXXX
+ 
+XXXXXXX
+X..*..X
+X.....X
+XX.X.XX
+ XJMGX
+ X...X
+ XXXXX

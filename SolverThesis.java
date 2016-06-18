@@ -1,7 +1,9 @@
 package sokoban;
 
 import java.io.IOException;
+import java.nio.charset.Charset;
 import java.nio.file.Files;
+import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.List;
@@ -9,94 +11,121 @@ import java.util.Scanner;
 import org.apache.commons.lang3.time.StopWatch;
 
 public class SolverThesis {
-	static Box[] boxes;
-	static Goal[] goals;
-	static char[][] startingMap;
-	static char[][] groundMap;
-	static int[][] obviousDeadlocks;
-	static char[][] btBuilding;
-	static boolean solution;
-	static Coordinate startPos;
-	static short minStep = 150;
-	static List<Character> moves;
-	static long nana = 0;
-	static List<String> solutions;
-	static Coordinate illegalBoxPosMin;
-	static Coordinate illegalBoxPosMax;
-	static int neki = 0;
-	static ArrayList<ArrayList<ArrayList<String>>> beenThereTable;
-	static ArrayList<ArrayList<ArrayList<Short>>> beenThereStepTable;
+	static Box[] boxes; //
+	static Goal[] goals; //
+	static char[][] startingMap;//
+	static char[][] groundMap;//
+	static int[][] obviousDeadlocks;//
+	static char[][] btBuilding; //
+	static boolean solution;//
+	static Coordinate startPos;//
+	static short minStep;//
+	static List<Character> moves;//
+	//static long nana = 0;
+	static List<String> solutions;//
+	static Coordinate illegalBoxPosMin;//
+	static Coordinate illegalBoxPosMax;//
+	//static int neki = 0;
+	static ArrayList<ArrayList<ArrayList<String>>> beenThereTable;//
+	static ArrayList<ArrayList<ArrayList<Short>>> beenThereStepTable;//
+	static StopWatch st;
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		// j - box
 		// g - goal
 		// m - sokoban
-		StopWatch st = new StopWatch();
-		st.start();
-		String fromFile = "";
+		
+		List<String> linesToWrite = new ArrayList<String>();
+		
+		for(int iter = 1; iter <= 155; iter++) {
+			//StopWatch st = new StopWatch();
+			System.out.print(iter + "/" + 155 + "  ");
+			st = new StopWatch();
+			st.start();
+			String fromFile = "";
+			try {
+				fromFile = new String(Files.readAllBytes(Paths.get("microban/maze"+iter+".txt")));
+				//fromFile = new String(Files.readAllBytes(Paths.get("example_map.txt")));
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+			//System.out.println(fromFile);
+			if(fromFile.equals("")) {
+				System.out.println("File was not read");
+				System.exit(0);
+			}
+			minStep = 1000;
+			solution = false;
+			String[] lines = getLines(fromFile);
+			String[] mapData = lines[0].split(" ");
+			int xLen = Integer.parseInt(mapData[1]);
+			int yLen = Integer.parseInt(mapData[0]);
+			int noOfGoals = Integer.parseInt(mapData[2]);
+			boxes = new Box[noOfGoals];
+			goals = new Goal[noOfGoals];
+			
+			char[][] map = new char[xLen][yLen];
+			groundMap = new char[xLen][yLen];
+			btBuilding = new char[xLen][yLen];
+			map = stringToMap(lines, map);
+			startingMap = map;
+			
+			moves = new ArrayList<Character>();
+			solutions = new ArrayList<String>();
+			obviousDeadlocks = new int[xLen][yLen];
+			obviousDeadlocks = findObviousDeadlocks(obviousDeadlocks);
+			
+			byte[] boxesPos = new byte[boxes.length*2];
+			for(int i = 0; i < boxes.length; i++) {
+				boxesPos[2*i] = boxes[i].coor.x;
+				boxesPos[2*i +1] = boxes[i].coor.y;
+				//System.out.println(i + ": " + boxesPos[2*i] + " " + boxesPos[2*i +1] );
+			}
+			/*for(int i = 0; i < goals.length; i++) {
+				System.out.println(goals[i].coor.toString());
+			}*/
+			//System.out.println(startPos.toString());
+			//printMap(groundMap);
+			solve(boxesPos, new byte[]{startPos.x, startPos.y}, new byte[]{startPos.x, startPos.y}, (short) 0, false);
+			
+			//System.out.println(nana);
+			/*System.out.println(solutions.size());
+			for(int i  = 0; i < solutions.size(); i++) {
+				System.out.println(solutions.get(i).length());
+			}*/
+			String finalSolution = "no solution";
+			int solutionLenght = 0;
+			if(solutions.size() > 0) {
+				//System.out.println(solutions.get(solutions.size()-1));
+				finalSolution = solutions.get(solutions.size()-1);
+				solutionLenght = finalSolution.length();
+			}
+			st.stop();
+		    long time = st.getNanoTime();
+		    double seconds = (double) time / 1000000000.0;
+		    System.out.println(seconds + " s");
+		    linesToWrite.add(iter + ". " + solutionLenght + " | " + time);
+		}
+		Path file = Paths.get("results.txt");
 		try {
-			fromFile = new String(Files.readAllBytes(Paths.get("example_map8.txt")));
-			//fromFile = new String(Files.readAllBytes(Paths.get("level41.txt")));
+			Files.write(file, linesToWrite, Charset.forName("UTF-8"));
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		//System.out.println(fromFile);
-		if(fromFile.equals("")) {
-			System.out.println("File was not read");
-			System.exit(0);
-		}
-		
-		solution = false;
-		String[] lines = getLines(fromFile);
-		String[] mapData = lines[0].split(" ");
-		int xLen = Integer.parseInt(mapData[1]);
-		int yLen = Integer.parseInt(mapData[0]);
-		int noOfGoals = Integer.parseInt(mapData[2]);
-		boxes = new Box[noOfGoals];
-		goals = new Goal[noOfGoals];
-		
-		char[][] map = new char[xLen][yLen];
-		groundMap = new char[xLen][yLen];
-		btBuilding = new char[xLen][yLen];
-		map = stringToMap(lines, map);
-		startingMap = map;
-		
-		moves = new ArrayList<Character>();
-		solutions = new ArrayList<String>();
-		obviousDeadlocks = new int[xLen][yLen];
-		obviousDeadlocks = findObviousDeadlocks(obviousDeadlocks);
-		
-		byte[] boxesPos = new byte[boxes.length*2];
-		for(int i = 0; i < boxes.length; i++) {
-			boxesPos[2*i] = boxes[i].coor.x;
-			boxesPos[2*i +1] = boxes[i].coor.y;
-			//System.out.println(i + ": " + boxesPos[2*i] + " " + boxesPos[2*i +1] );
-		}
-		/*for(int i = 0; i < goals.length; i++) {
-			System.out.println(goals[i].coor.toString());
-		}*/
-		//System.out.println(goals[0].coor.toString());
-		//printMap(groundMap);
-		solve(boxesPos, new byte[]{startPos.x, startPos.y}, new byte[]{startPos.x, startPos.y}, (short) 0, false);
-		
-		System.out.println(nana);
-		System.out.println(solutions.size());
-		for(int i  = 0; i < solutions.size(); i++) {
-			System.out.println(solutions.get(i).length());
-		}
-		System.out.println(solutions.get(solutions.size()-1));
-		st.stop();
-	    long time = st.getNanoTime();
-	    double seconds = (double) time / 1000000000.0;
-	    System.out.println(seconds + " s");
-		
 	}
 
 	private static void solve(byte[] boxesPos, byte[] lastPos, byte[] cur, short step, boolean boxMoved) {
 		// TODO Auto-generated method stub
-		nana++;
+		//nana++;
+		
+		long time = st.getNanoTime();
+	    double seconds = (double) time / 1000000000.0;
+	    if(seconds > 600) {
+	    	return;
+	    }
 		/* build string for beenthere */
 		String bT = ""; // = cur[0] + "" + cur[1];
 		for(int b = 0; b < boxesPos.length/2; b++) {
@@ -134,7 +163,7 @@ public class SolverThesis {
 		if(solved(cur, boxesPos)) {
 			minStep = (short) (step+1);
 			String string = writeOut();
-			System.out.println(step);
+			//System.out.println(step);
 			solutions.add(string);
 			return;
 		}
@@ -587,9 +616,9 @@ public class SolverThesis {
 		String result = "";
 		for(int i = 0; i < moves.size(); i++) {
 			result = result + moves.get(i);
-			System.out.print(moves.get(i));
+			//System.out.print(moves.get(i));
 		}
-		System.out.println();
+		//System.out.println();
 		return result;
 		
 	}
@@ -598,7 +627,7 @@ public class SolverThesis {
 	private static void printMap(char[][] map) {
 		// TODO Auto-generated method stub
 		for(int i = 0; i < map.length; i++) {
-			System.out.print(i);
+			//System.out.print(i);
 			for(int j = 0; j < map[i].length; j++) {
 				if(map[i][j] == '.' && obviousDeadlocks[i][j] == 1) {
 					System.out.print("1");
@@ -633,11 +662,20 @@ public class SolverThesis {
 		byte yMax = 0;
 		beenThereTable = new ArrayList<>();
 		beenThereStepTable = new ArrayList<>();
+		int maxSize = 0;
 		for(byte i = 1; i < lines.length; i++) {
 			//System.out.println(lines[i].length());
 			beenThereTable.add(new ArrayList<>());
 			beenThereStepTable.add(new ArrayList<>());
-			for(byte j = 0; j < lines[i].length(); j++) {
+			if(lines[i].length() > maxSize) {
+				maxSize = lines[i].length();
+			}
+			for(byte j = 0; j < maxSize; j++) {
+				map[i-1][j] = ' ';
+				groundMap[i-1][j] = ' ';
+				if(j >= lines[i].length()) {
+					continue;
+				}
 				beenThereTable.get(i-1).add(new ArrayList<>());
 				beenThereStepTable.get(i-1).add(new ArrayList<>());
 				char curChar = lines[i].charAt(j);
@@ -680,6 +718,14 @@ public class SolverThesis {
 					noOfBoxes++;
 					groundMap[i-1][j] = 'G';
 				}
+				else if(curChar == '+') {
+					map[i-1][j] = '+';
+					startPos = new Coordinate((byte) (i-1), j);
+					goals[noOfGoals] = new Goal((byte) (i-1), j);
+					noOfGoals++;
+					groundMap[i-1][j] = 'G';
+				}
+				
 			}
 		}
 		illegalBoxPosMax = new Coordinate(xMax, yMax);

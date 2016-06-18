@@ -1,0 +1,9 @@
+15 8 5
+     XXXX
+ XXXXX..X
+ X.....JXXXXXXX
+XX.XX.GGX..GGGX
+X.J.JJXJ..M...X
+X........XXX..X
+XXXXXXX..X XXXX
+      XXXX

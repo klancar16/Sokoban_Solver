@@ -1,0 +1,1667 @@
+;.1
+XXXX
+X.GX
+X..XXX
+X*M..X
+X..J.X
+X..XXX
+XXXX
+
+;.2
+XXXXXX
+X....X
+X.XM.X
+X.J*.X
+X.G*.X
+X....X
+XXXXXX
+
+;.3
+  XXXX
+XXX..XXXX
+X.....J.X
+X.X..XJ.X
+X.G.GXM.X
+XXXXXXXXX
+
+;.4
+XXXXXXXX
+X......X
+X.G**JMX
+X......X
+XXXXX..X
+    XXXX
+
+;.5
+ XXXXXXX
+ X.....X
+ X.GJG.X
+XX.JMJ.X
+X..GJG.X
+X......X
+XXXXXXXX
+
+;.6
+XXXXXX.XXXXX
+X....XXX...X
+X.JJ.....XMX
+X.J.XGGG...X
+X...XXXXXXXX
+XXXXX
+
+;.7
+XXXXXXX
+X.....X
+X.GJG.X
+X.JGJ.X
+X.GJG.X
+X.JGJ.X
+X..M..X
+XXXXXXX
+
+;.8
+  XXXXXX
+  X.GGMX
+  X.JJ.X
+  XX.XXX
+   X.X
+   X.X
+XXXX.X
+X....XX
+X.X...X
+X...X.X
+XXX...X
+  XXXXX
+
+;.9
+XXXXX
+XG..XX
+XMJJ.X
+XX...X
+ XX..X
+  XXGX
+   XXX
+
+;.10
+      XXXXX
+      XG..X
+      XGX.X
+XXXXXXXGX.X
+X.M.J.J.J.X
+X.X.X.X.XXX
+X.......X
+XXXXXXXXX
+
+;.11
+  XXXXXX
+  X....X
+  X.XXMXX
+XXX.X.J.X
+X.GGX.J.X
+X.......X
+X..XXXXXX
+XXXX
+
+;.12
+XXXXX
+X...XX
+X.J..X
+XX.J.XXXX
+ XXXMG..X
+  X..GX.X
+  X.....X
+  XXXXXXX
+
+;.13
+XXXX
+XG.XX
+XGM.X
+XG.JX
+XXJ.XXX
+ X.J..X
+ X....X
+ X..XXX
+ XXXX
+
+;.14
+XXXXXXX
+X.....X
+X.X.X.X
+XG.J*MX
+X...XXX
+XXXXX
+
+;.15
+      XXX
+XXXXXXMXX
+X....G*.X
+X...X...X
+XXXXXJX.X
+    X...X
+    XXXXX
+
+;.16
+ XXXX
+ X..XXXX
+ X.....XX
+XX.XX...X
+XG.GX.MJXX
+X...X.JJ.X
+X..GX....X
+XXXXXXXXXX
+
+;.17
+XXXXX
+X.M.X
+XGGGX
+XJJJXX
+X....X
+X....X
+XXXXXX
+
+;.18
+XXXXXXX
+X.....X
+XG.G..X
+X.XX.XX
+X..J.X
+XXXJ.X
+  XM.X
+  X..X
+  XXXX
+
+;.19
+XXXXXXXX
+X...GG.X
+X..MJJ.X
+XXXXX.XX
+   X..X
+   X..X
+   X..X
+   XXXX
+
+;.20
+XXXXXXX
+X.....XXX
+X..MJJGGX
+XXXX.XX.X
+  X.....X
+  X..XXXX
+  X..X
+  XXXX
+
+;.21
+XXXX
+X..XXXX
+X.G.G.X
+X.JJXMX
+XX....X
+ XXXXXX
+
+;.22
+XXXXX
+X...XXX
+XG.G..X
+X...X.X
+XX.X..X
+ XMJJ.X
+ X....X
+ X..XXX
+ XXXX
+ 
+;.23
+XXXXXXX
+X..*..X
+X.....X
+XX.X.XX
+ XJMGX
+ X...X
+ XXXXX
+
+;.24
+  XXXXX
+  X...X
+XXXJJMX
+X...XXX
+X.....X
+X.G.G.X
+XXXXXXX
+
+;.25
+ XXXX
+ X..XXX
+ X.JJ.X
+XXGGG.X
+X..MJ.X
+X...XXX
+XXXXX
+
+;.26
+ XXXXX
+ X.M.X
+ X...X
+XXXJ.X
+X.GGGX
+X.JJ.X
+XXX..X
+  XXXX
+
+;.27
+XXXXXX
+X...GX
+X.XX.XX
+X..JJMX
+X.X...X
+XG..XXX
+XXXXX
+
+;.28
+XXXXX
+X...X
+X.M.X
+X.JJXXX
+XXG.G.X
+ X....X
+ XXXXXX
+
+;.29
+     XXXXX
+     X...XX
+     X....X
+ XXXXXX...X
+XX.....XG.X
+X.J.J.M..XX
+X.XXXXXXGX
+X........X
+XXXXXXXXXX
+
+;.30
+XXXX
+X..XXX
+X.JJ.X
+XGGG.X
+X.MJ.X
+X...XX
+XXXXX
+
+;.31
+  XXXX
+ XX..X
+XXMJGXX
+X.JJ..X
+X.G.G.X
+XXX...X
+  XXXXX
+
+;.32
+ XXXX
+XX..XXX
+X.....X
+XG**JMX
+X...XXX
+XX..X
+ XXXX
+
+;.33
+XXXXXXX
+XG.X..X
+X..J..X
+XG.JXMX
+X..J..X
+XG.X..X
+XXXXXXX
+
+;.34
+ XXXX
+XXX..XXXX
+X.......X
+XMJ***G.X
+X.......X
+XXXXXXXXX
+
+;.35
+ XXXX
+XX..X
+XG.JX
+XGJ.X
+XGJ.X
+XGJ.X
+XG.JXX
+X...MX
+XX...X
+ XXXXX
+
+;.36
+XXXX
+X..XXXXXXXXXXXX
+X.J.J.J.J.J.M.X
+X.GGGGG.......X
+XXXXXXXXXXXXXXX
+
+;.37
+      XXX
+XXXXX.XGX
+X...XXXGX
+X...J.XGX
+X.J..J..X
+XXXXXMX.X
+    X...X
+    XXXXX
+
+;.38
+XXXXXXXXXX
+X........X
+X.XXGXXX.X
+X.X.JJ.G.X
+X.G.MJXX.X
+XXXXX....X
+    XXXXXX
+
+;.39
+XXXXX
+X...XXXX
+X.X.X.GX
+X....J.XXX
+XXX.XJG..X
+X...XM...X
+X.X.XXXXXX
+X...X
+XXXXX
+
+;.40
+ XXXXX
+ X...X
+XX...XX
+X.JJJ.X
+X.G+G.X
+XXXXXXX
+
+;.41
+XXXXXXX
+X.....X
+XMJJJ.XX
+X..XGGGX
+XX....XX
+ XXXXXX
+
+;.42
+   XXXX
+   X..X
+   XM.X
+XXXXJGX
+X...JGX
+X.X.JGX
+X....XX
+XXXXXX
+
+;.43
+     XXXX
+     X.MX
+     X..X
+XXXXXX.GX
+X...J..GX
+X..JJX.GX
+X....XXXX
+XXX..X
+  XXXX
+
+;.44
+XXXXX
+XMJGX
+XXXXX
+
+;.45
+XXXXXX
+XGGG.X
+X..J.X
+X.XJXX
+X..J.X
+X..M.X
+XXXXXX
+
+;.46
+ XXXXXX
+XX....X
+X..XX.X
+X.X.J.X
+X..*.GX
+XX.XMXX
+ X...X
+ XXXXX
+
+;.47
+  XXXXXXX
+XXX.....X
+X.J.J...X
+X.XXX.XXXXX
+X.M.G.G...X
+X...XXX...X
+XXXXX XXXXX
+
+;.48
+XXXXXX
+X..M.X
+X..X.XX
+X.GX..XX
+X.GJJJ.X
+X.GX...X
+XXXX...X
+   XXXXX
+
+;.49
+XXXXXX
+X.M..X
+X.JX.X
+X.J..X
+X.J.XX
+XXX.XXXX
+ X..X..X
+ XGGG..X
+ X.....X
+ XXXXXXX
+
+;.50
+  XXXX
+XXX..XXXXX
+X..J..MGGX
+X.J....X.X
+XXX.XXXX.X
+  X......X
+  XXXXXXXX
+
+;.51
+XXXX
+X..XXX
+X....XXX
+X..J*M.X
+XXX.GX.X
+  X....X
+  XXXXXX
+
+;.52
+  XXXX
+XXX.MX
+X..J.X
+X..*GX
+X..*GX
+X..J.X
+XXX..X
+  XXXX
+
+;.53
+ XXXXX
+XXG.GXX
+X.*.*.X
+X..X..X
+X.J.J.X
+XX.M.XX
+ XXXXX
+
+;.54
+      XXXXXX
+      X....X
+  XXXXX.G..X
+XXX..XXXG..X
+X.J..J..G.XX
+X.MJJ.X.G.X
+XX....XXXXX
+ XXXXXX
+
+;.55
+XXXXXXXX
+X.M.X..X
+X......X
+XXXXXJ.X
+    X..XXX
+    XJ.GGX
+    X..XXX
+    XXXX
+
+;.56
+XXXXX
+X...XXX
+X..J..X
+XX*.G.X
+ X...MX
+ XXXXXX
+
+;.57
+  XXXX
+  X..X
+  XM.X
+  X..X
+XXX.XXXX
+X....*.X
+X..J...X
+XXXXXG.X
+    XXXX
+
+;.58
+XXXX
+X..XXXX
+XG*J..X
+X.GJX.X
+XX.M..X
+ X...XX
+ XXXXX
+
+;.59
+XXXXXXXXXXXX
+X..........X
+X.XXXXXXX.MXX
+X.X.........X
+X.X..J...X..X
+X.JJ.XXXXX..X
+XXX..X.X.GGGX
+  XXXX.X....X
+       XXXXXX
+
+;.60
+ XXXXXXXXX
+ X.......X
+XXMXXXXX.X
+X..X...X.X
+X..X...JGX
+X..XXJXXGX
+XXJXX..XGX
+X...J..XGX
+X...X..XXX
+XXXXXXXX
+
+;.61
+XXXXXXXX
+X......X
+X.XXXX.X
+X.XGGGMX
+X.XXXJXXX
+X.X.....X
+X..JJ.J.X
+XXXX...XX
+   XGXXX
+   XXX
+
+;.62
+   XXXXXXXXXX
+XXXX....XX..X
+X..JJJGGGGJMX
+X......XXX..X
+X...XXXX.XXXX
+XXXXX
+
+;.63
+XXXXX...XXXX
+X...XXXXX.GX
+X.......J..XXXXXXXX
+XXX..XXXX.GJ....M.X
+  X..X..X..XXXX...X
+  XXXX..XXXX..XXXXX
+
+;.64
+ XXXXXX
+XX....X
+X...J.X
+X..JJ.X
+XXX.GXXXXX
+  XXGX.M.X
+   XG..J.X
+   XG.XXXX
+   XXXX
+
+;.65
+  XXXXXX
+  X....X
+  X..J.X
+ XXXXJ.X
+XX.J.J.X
+XGGGGX.XX
+X.....M.X
+XX..X...X
+ XXXXXXXX
+
+;.66
+   XXX
+   XMX
+ XXXJXXX
+XX..G..XX
+X..X.X..X
+X.X...X.X
+X.X...X.X
+X.X...X.X
+X..X.X..X
+XX.J.J.XX
+ XXG.GXX
+  X...X
+  X...X
+  XXXXX
+
+;.67
+XXXXX
+X...XX
+X.X..X
+XMJ*GXX
+XX..G.X
+ X.JX.X
+ XX...X
+  XXXXX
+
+;.68
+ XXXX
+ X..XXXXXX
+XX....J..X
+X.GX.J...X
+X.GXJXXXXX
+X.GM.X
+XXXXXX
+
+;.69
+XXXX  XXXX
+X..XXXX..X
+X..X..X..X
+X..X....JXX
+X..G.GXJ..X
+XM.XX.X.J.X
+X...G.X...X
+XXXXXXXXXXX
+
+;.70
+XXXXX
+X.M.XXXX
+X......X
+X.J.JJ.X
+XXJXX..X
+X...XXXX
+X.GG..X
+XXGG..X
+ XXX..X
+   XXXX
+
+;.71
+XXXXXXXXXXX
+X.....X...XXX
+X.JMJ.X.G..GX
+X.XX.XXX.XX.X
+X.X.......X.X
+X.X...X...X.X
+X.XXXXXXXXX.X
+X...........X
+XXXXXXXXXXXXX
+
+;.72
+  XXXX
+ XX..XXXXX
+ X..J..M.X
+ X..JX...X
+XXXX.XXXXX
+X..X...X
+X....J.X
+X.GGX..X
+X..GXXXX
+X..XX
+XXXX
+
+;.73
+XXXX
+X..XXXXX
+X.JJ.J.X
+X......X
+XX.XX.XX
+XGGGXMX
+X.XXX.XX
+X......X
+X..X...X
+XXXXXXXX
+
+;.74
+ XXXX
+ X..XXXXXXX
+ XJ.MX...GX
+XX.XJJ...GX
+X..J..XXGGX
+X...X.XXXXX
+XXX...X
+  XXXXX
+
+;.75
+ XXXXXXX
+XX.GGGGXX
+X...XXXXXX
+X...J.J.MX
+XXX..J.J.X
+  XXX....X
+    XXXXXX
+
+;.76
+ XXXXX
+XX...X
+X....XXXXX
+X..XGX...X
+XM.XGX.J.X
+X..XGX..XX
+X....X..X
+XX..XXJJX
+ XX.....X
+  X..XXXX
+  XXXX
+
+;.77
+XXXXXXXXXX
+X.M.GGGG.X
+X...XXXXJXX
+XX.X..J.J.X
+ X.J......X
+ X...XXXXXX
+ XXXXX
+
+;.78
+ XXXXXXX
+XX.....XX
+X..J.J..X
+X.J.J.J.X
+XX.XXX.XXXX
+ XM..GGGGGX
+ XX.....XXX
+  XXXXXXX
+
+;.79
+ XXXXXXXXX
+ X....X..X
+XX.JXJX..X
+X..GJGM..X
+X..GX....X
+XXXXXXXXXX
+
+;.80
+XXXX
+X..XXXXXXX
+X..G.XX.GX
+X.JX....GX
+XX.XX.X.GX
+ X....X..X
+ XXXX.X..X
+  X.MJ.XXX
+  X.JJ.X
+  X....X
+  XXXXXX
+
+;.81
+ XXXXX
+ X...X
+ X.G.X
+XX.*.X
+X..*XX
+X..MXX
+XX.J.X
+ X...X
+ XXXXX
+
+;.82
+XXXXX
+X...XXX
+X.G...XX
+XX*XJ..X
+X.GX.J.X
+X.MXX.XX
+X.....X
+XXXXXXX
+
+;.83
+XXXXXX
+X....XX
+X.J.J.XX
+XX.JJ..X
+ X.X...X
+ X.XX.XX
+ X..G.GX
+ X.MG.GX
+ X..XXXX
+ XXXX
+
+;.84
+XXXXXXXX
+X..GGG.X
+X..XXX.XX
+X..X.J..X
+XX.XMJ..X
+ X.X.J..X
+ X.XXX.XXXXX
+ X.........X
+ X...XXX...X
+ XXXXX.XXXXX
+
+;.85
+       XXXX
+ XXXXXXX..X
+ X.J......X
+ X...J.J..X
+ X.XXXXXXXX
+XX.X.G..X
+X..X.X..X
+X..M.G.XX
+XX.X.X.X
+ X...G.X
+ XXXXXXX
+
+;.86
+    XXXX
+  XXX..XX
+ XX.J...X
+XX.J..X.X
+X.MXJJ..X
+X.GG..XXX
+X.GGXXX
+XXXXX
+
+;.87
+     XXXX
+XXXXXX..X
+X.......X
+X..GGG.GX
+XXJXXXXXX
+X.J..X
+X...JXXX
+XX..J..X
+ XX.M..X
+  XXXXXX
+
+;.88
+     XXXX
+   XXX..X
+   X....X
+   X..X.X
+   XJ.XGX
+   X..X.X
+   XJ.XGX
+   X..X.X
+XXXXJ.XGX
+X.M.....X
+X...X..XX
+XXXXXXXX
+
+;.89
+XXXXXXXXXX
+X...XX...X
+X.J..JMX.X
+XXXX.X.J.X
+   XGX..XX
+   XGX.JX
+   XG...X
+   XG...X
+   XXXXXX
+
+;.90
+ XXXXXXXX
+ X..M...X
+ X.J..J.X
+XXX.XX.XXX
+X..JGGJ..X
+X...GG...X
+XXXXXXXXXX
+
+;.91
+XXXXXXXXXXX
+X....GXX..X
+X.JJMGGJJ.X
+X...XXG...X
+XXXXXXXXXXX
+
+;.92
+  XXXX
+  X..X....XXXXX
+  X..X....X...X
+  X..XXXXXXGX.X
+XXXX..J....G..X
+X...JJX.XXXGX.X
+X...X...X X...X
+XXXXXXXXX XM.XX
+          X..X
+          XXXX
+
+;.93
+ XXXXXXXXX
+XX...X...XX
+X....X....X
+X..J.X.J..X
+X...*G*...X
+XXXXGMGXXXX
+X...*G*...X
+X..J.X.J..X
+X....X....X
+XX...X...XX
+ XXXXXXXXX
+
+;.94
+XXXXXXXXX
+X.M.X...X
+X.J.J...X
+XXJXXX.XX
+X..GGG..X
+X...X...X
+XXXXXX..X
+     XXXX
+
+;.95
+XXXXXXXX
+XM.....X
+X.GJJG.X
+X.JGGJ.X
+X.JGGJ.X
+X.GJJG.X
+X......X
+XXXXXXXX
+
+;.96
+  XXXXXX
+  X....X
+  X....X
+XXXXX..X
+X...XGXXXXX
+X...JMJ...X
+XXXXXGX...X
+   XX.XX.XX
+   X...JGX
+   X...XXX
+   XXXXX
+
+;.97
+   XXXX
+   X..XXXXXXXX
+XXXX.J.JGGGGGX
+X...J...XXXXXX
+XMXXX.XXX
+X..J..X
+X.J.X.X
+XX.X..X
+ X....X
+ XXXXXX
+
+;.98
+XXXXX
+X...XX.XXXX
+X..J.XXX.GX
+X.J...J..GX
+XX.JXXXXXGX.XXXX
+X.J..X X.GXXX..X
+X....X X.GX..M.X
+XXX..X X.......X
+  XXXX XX.....XX
+        XXXXXXX
+
+;.99
+               XXXXX
+               X...X
+XXXXXXX  XXXXXXX.X.X
+X.....X  X..X......X
+X..M..XXXX..X.....XXXX
+X..X....GGGGXX.XXXX..X
+X....XXXXX.XX.JJ.J.J.X
+XXXXXX   X...........X
+         X..XXXXXXXXXX
+         XXXX
+
+;.100
+XXXXXXX
+X.MX..X
+XGJ...X
+XG.X.JXX
+XGJX...X
+XG.X.J.X
+X..X...X
+XXXXXXXX
+
+;.101
+  XXXXX
+  X...X
+  X.X.XXXXXXX
+  X..*..X...X
+  XX.XX...X.X
+  X.....X*..X
+XXX.X.X.X.XXX
+X..*XJ+...X
+X.X...XX.XX
+X...X..*..X
+XXXXXXX.X.X
+      X...X
+      XXXXX
+
+;.102
+XXXXXXXXXXX
+XGGGGX....X
+X..X...JJ.X
+X..M..XX..X
+X.....XXJ.X
+XXXXXX..J.X
+     X....X
+     XXXXXX
+
+;.103
+  XXXXX
+  X.G.XX
+XXX.J..X
+X.G.JXMX
+X.XJ.G.X
+X..J.XXX
+XX.G.X
+ XXXXX
+
+;.104
+    XXXXX
+XXXXX...X
+X....J..X
+X..JXJXMX
+XXX.X...X
+  X.GGG.X
+  XXX..XX
+    X..X
+    XXXX
+
+;.105
+ XXXX XXXX
+XX..XXX..XX
+X...X.X...X
+X..*G.G*..X
+XXXJ...JXXX
+ X...M...X
+XXXJ...JXXX
+X..*G.G*..X
+X...X.X...X
+XX..XXX..XX
+ XXXX XXXX
+
+;.106
+ XXXXXXXX
+ X......X
+ XM...J.X
+XX.XXXJ.X
+X.GGGGGXXX
+X.J.J.J..X
+XXXXXX.X.X
+     X...X
+     XXXXX
+
+;.107
+XXXXXXXX
+X......X
+X.J***.X
+X.*..*.X
+X.*..*.X
+X.***G.X
+X.....MX
+XXXXXXXX
+
+;.108
+XXXX.....XXXXX
+X..XXX...X...XX
+X....X...XJ.J.X
+XGGX.XXXXX.X..X
+X..M....X.J.J.X
+XGGX.........XX
+XX...XXXXXXXXX
+ XXXXX
+
+;.109
+  XXXXXXX
+  X.....X
+  X.X.X.X
+  X.M.J.X
+XXX.XXX.X
+X...XXX.X
+X.J..XXGX
+XX.J..XGX
+ XX.J..GX
+  XX.JXGX
+   XX.XGX
+    X...X
+    XXXXX
+
+;.110
+  XXXX
+  X..X
+  X.JXXXX
+XXXG.G..X
+X.J.X.J.X
+X..G.GXXX
+XXXXJ.X
+   X.MX
+   XXXX
+
+;.111
+XXXXXX
+X....XXXX
+X....GGGX
+X....GGGX
+XXXXXX..X
+  X..X..X
+  X.JJ.XX
+  X.MJ..X
+  X.JJ..X
+  XX.JX.X
+   X....X
+   XXXXXX
+
+;.112
+ XXXXX
+XX...XXXX
+X..JJJ..X
+X.X...J.X
+X...JXX.XX
+XXX..XG..X
+  X..X...X
+ XXXXX.XXX
+ X...X.XX
+ X.MGGGGX
+ X......X
+ X...X..X
+ XXXXXXXX
+
+;.113
+   XXXXX
+  XX...X
+XXX..X.X
+X....G.X
+X..XX.XXXXX
+X..G.G.X..XX
+X..X.M.J...XXX
+XXXXXG.X..J..X
+    XXXX..J..X
+       XX.J.XX
+        X..XX
+        X..X
+        XXXX
+
+;.114
+XXXXXX
+X....XXX
+X..X.J.X
+X..J.M.X
+XX.XX.XXXXX
+X..XGGGGGGX
+X.J.J.J.J.X
+XX...XXXXXX
+ XXXXX
+
+;.115
+    XXXXX
+XXXXX...XXXX
+X.....X....X
+X..XGGGGG..X
+XX..XX.X.XXX
+ XJJMJJJ.X
+ X.....XXX
+ XXXXXXX
+
+;.116
+     XXXXX
+   XXX...X
+XXXXGGGGGX
+X.MJJJJJ.X
+X.....X.XX
+XXXXX...X
+    XXXXX
+
+;.117
+ XXXX.XXXX
+ X..XXX..XX
+ X......M.X
+XXGGXXX...X
+X......X..X
+XGGGXJ..X.X
+X.XX.JJ.J.X
+X..J....XXX
+XXXX..XXX
+   XXXX
+
+;.118
+ XXXXX
+XX...XX
+X..J..XX
+X.J.J..XX
+XXXJX.G.XX
+  X.X.G..X
+ XX.XXG..X
+ X.M..G.XX
+ X...X..X
+ XXXXXXXX
+
+;.119
+  XXXXXX
+  X....XX
+ XX.XX..X
+ X.JJ.X.X
+ X.MJ.X.X
+ X....X.X
+XXXX.X..X
+X..GGG.XX
+X.....XX
+XXXXXXX
+
+;.120
+      XXXX
+XXXXXXX..X
+X.J......XX
+X.JXXXXX..X
+X..MX..X..X
+XX.XXGG...X
+X..X.GGXXXX
+X.J..XXX
+X.JXXX
+X..X
+XXXX
+
+;.121
+ XXXXXX
+ X.G..X
+XXJGX.X
+X..*..X
+X.GGXXX
+XXJ.X.XXXXX
+XX.XX.X...X
+X..XXXX.X.X
+X...M.J.J.X
+XX..X.....X
+ XXXXXXXXXX
+
+;.122
+XXXXX
+X...XXX
+X.XJ..X
+X.J...X
+X.J.J.X
+X.JX..X
+X..MXXX
+XX.XXXXXXXX
+X......GGGX
+X.........X
+XXXXXXXXGGX
+       XXXX
+
+;.123
+XXXXXXXX
+X......X
+X.J.JJ.XXXXXXXX
+XXXXX.MXXG.G..X
+    XJ..X.G...X
+    X...XG.G.XX
+    XJX.XX.X.X
+    X........X
+    X..XXX..XX
+    X..X.XXXX
+    XXXX
+
+;.124
+XXXXXXXXXXXXXX
+X......X.....X
+X.JMJJ.X.G.GGX
+XX.XX.XXX.XX.X
+ X.X.......X.X
+ X.X...X...X.X
+ X.XXXXXXXXX.X
+ X...........X
+ XXXXXXXXXXXXX
+
+;.125
+      XXXXX
+      X...XX
+      X.J..X
+XXXXXXXX.XMXX
+X.G..X.J.J..X
+X........JX.X
+XGGGXXXXX...X
+XXXXX   XXXXX
+
+;.126
+ XXXXXXXXXXX
+XXGGGGGGG..X
+X.JJJJJJJM.X
+X...X.X.X.XX
+X.X.X.....X
+X...XXXXXXX
+XXXXX
+
+;.127
+XX.XXXX
+XXXX..XXXX
+ X.J.JG..X
+XX.X..GJ.X
+X...XXGXXX
+X..J..G.X
+X.M.X...X
+X..XXXXXX
+XXXX
+
+;.128
+  XXXXXXXXX
+XXX...X...X
+X.*.J.G.G.X
+X...J.XX.XX
+XXXX*X...X
+ X..M..XXX
+ X...XXX
+ XXXXX
+
+;.129
+  XXXXXXXXX
+XXX.M.X...X
+X.*.J.*GG.X
+X...J.X...X
+XXXX*X..XXX
+ X.....XX
+ X...XXX
+ XXXXX
+
+;.130
+XXXXX..XXXXX
+X...XXXXGG.X
+X.JJJ......X
+X...JX..GG.X
+XXX.MX..XX.X
+  X..XX....X
+  XXXXXXXXXX
+
+;.131
+XXXXX
+X...X
+X.G.X
+XGMGXXX
+XXGX..X
+X..J..X
+X.J...X
+XXJJ..X
+ X..XXX
+ X..X
+ XXXX
+
+;.132
+XXXX
+X.MXXX
+XG*..XXXXX
+XGGXJJ.J.X
+XX.......X
+ X.X.XX..X
+ X...XXXXX
+ XXXXX
+
+;.133
+ XXXXXXX
+ X..G.GXXX
+ X.G.G.G.X
+XXX.XXXX.X
+X..MJ..J.X
+X..JJ..J.X
+XXXX...XXX
+   XXXXX
+
+;.134
+        XXXX
+XXXXXXXXX..X
+X...XX.J...X
+X..J...XX..X
+XXX.XG.GX.XX
+  X.XG.GXJXX
+  X.X...X..X
+  X.M.J....X
+  X..XXXXXXX
+  XXXX
+
+;.135
+XXXXXXX
+X.....XXXXX
+X.JJXMXXGGX
+X.X.......X
+X..J.X.X..X
+XXXX.J..GGX
+   XXXXXXXX
+
+;.136
+ XXXXXXX
+ X.....X
+XX.XXXJXX
+XGJ...M.X
+X.GG.XJ.X
+XGXX..J.X
+X....XXXX
+XXXXXX
+
+;.137
+       XXXX
+      XX..XXX
+XXXX  X..J..X
+X..XXXX.J.J.X
+X...GGX.XJ..X
+X..X...M..XXX
+XX.XGGX.XXX
+ X.XX.X.X
+ X......X
+ XXXXXXXX
+
+;.138
+  XXXX
+XXX..X
+X....XXX
+X.X.G.GX
+X.M.GGGXXXX
+X.X.X.X...XX
+X...X.JJ...X
+XXXXX..J.J.X
+    XXJ.X.XX
+     X....X
+     XXXXXX
+
+;.139
+ XXXX
+XX..XXXX
+X...GGGX
+X...GGGX
+X...X.XX
+X...XM.XXXX.XXXX
+XXXXX.J...XXX..X
+    X..XXJ.J...X
+   XXX.....JJ..X
+   X.J..XX...XXX
+   X....XXXXXX
+   XXXXXX
+
+;.140
+XXXXXXXX.XXXXX
+X..X...XXX...X
+X......XX.J..X
+XGX.M.XX.J..XX
+XGX...X.J..XX
+XGX....J..XX
+XG.XX.XXXXX
+XX....X
+ XXXXXX
+
+;.141
+  XXXXXXXX
+  X..X.G.X
+  X...G*GX
+  X..X.*.X
+XXXXJXXGXX
+X......J.X
+X.J.XX.J.X
+X...MX...X
+XXXXXXXXXX
+
+;.142
+  XXXX
+  X..X
+  X..XXXX
+XXXJGJ..X
+X..GMG..X
+X..JGJXXX
+XXXX..X
+   X..X
+   XXXX
+
+;.143
+XXXX
+X..XXXX
+X.J...X
+X.GX..X
+X.JX.XX
+X.G..X
+XXXX.X
+   X.X
+ XXX.XXX
+ X..J..X
+XX.XJX.XX
+X.J.M.J.X
+X.GGXGG.X
+XXX...XXX
+  XXXXX
+
+;.144
+   XXXX
+ XXX..XXXXX
+ X.JJ.X...X
+ X.J.G.GJJXX
+ X.GG.XG.J.X
+XXX.X**.G..X
+X..G.**X.XXX
+X.J.GX.GG.X
+XXJJGMG.J.X
+ X...X.JJ.X
+ XXXXX..XXX
+     XXXX
+
+;.145
+   XXXXX
+   X.M.X
+  XX...XX
+XXXGJJJGXXX
+X..JGGGJ..X
+X..JGXGJ..X
+X..JGGGJ..X
+XXXGJJJGXXX
+  XX...XX
+   X...X
+   XXXXX
+
+;.146
+ XXXXXXX
+XX..G..XX
+X.GJJJG.X
+X.JG.GJ.X
+XGJ.M.JGX
+X.JG.GJ.X
+X.GJJJG.X
+XX..G..XX
+ XXXXXXX
+
+;.147
+       XXXXX
+XXXXXXXX...X
+XG...G..MXGX
+X..XXX.....X
+XX.J..X....X
+ X.J...XXXXX
+ X.JX..X
+ XX.X..X
+  X...XX
+  XXXXX
+
+;.148
+XXXXXXXXXXX
+X..G..X...X
+X.XG..M...X
+X..XGGX.XXXXXXX
+XX..XX.JJ.J.J.X
+ XX...........X
+  XXXXXXXXXXXXX
+
+;.149
+ XXXX
+XX..XXX
+XMJ...X
+XXX.J.X
+ X..XXXXXX
+ X..JGGGGX
+ X..X.XXXX
+ XX.X.X
+ X.JX.X
+ X....X
+ X..XXX
+ XXXX
+
+;.150
+     XXXX
+ XXXXX..X
+ X.....JXXXXXXX
+XX.XX.GGX..GGGX
+X.J.JJXJ..M...X
+X........XXX..X
+XXXXXXX..X XXXX
+      XXXX
+
+;.151
+   XXXX
+   X..X
+ XXX..X
+XX..J.X
+X...X.X
+X.XJJ.XXXXXX
+X.X...X...GX
+X..J..M...GX
+XXX..XXXXGGX
+  XXXX  XXXX
+
+;.152
+XXXXXX XXXX
+X.....X....X
+XGXX..XJXX..X
+X...X.....X..X
+XJ..X.XXX..X..X
+X.X......X..X.X
+X.X.XXXX..X.X.X
+XG.M....J.*.G.X
+XXXXXXXXXXXXXXX
+
+;.153
+XXXXXXXXXXXXX
+XGX.MX..X...X
+XGXJJ...X.J.X
+XGX..X.JX...X
+XGX.JX..X.JXX
+XGX..X.JX..X
+XGX.JX..X.JX
+XGG..X.J...X
+XGG..X..X..X
+XXXXXXXXXXXX
+
+;.154
+ XXXXXXXXXXXXXXXXXXXXXXXXXXXX
+ X..........................X
+ X.XXXXXXXXXXXXXXXXXXXXXXXX.X
+ X.X......................X.X
+ X.X.XXXXXXXXXXXXXXXXXXXX.X.X
+ X.X.X..................X.X.X
+ X.X.X.XXXXXXXXXXXXXXXX.X.X.X
+ X.X.X.X..............X.X.X.X
+ X.X.X.X.XXXXXXXXXXXX.X.X.X.X
+ X.X.X.X.X............X.X.X.X
+ X.X.X.X.X.XXXXXXXXXXXX.X.X.X
+ X.X.X.X.X..............X.X.X
+ X.X.X.X.XXXXXXXXXXXXXXXX.X.X
+ X.X.X.X..................X.X
+XXJX.X.XXXXXXXXXXXXXXXXXXXX.X
+XG.M.X......................X
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+;.155
+    XXXXXX               XXXX
+XXXXX*X..XXXXXXXXXXXXXXXXX..XX
+X...XXX......................X
+X........XXXXXXXX..XXXX..XX..X
+XXX.XXXX.....X..XXXX..XXXX..XX
+X*X.X.GX.X.X.X.....X.....X...X
+X*X.X..X.....X.XX..X.XX..XX..X
+XXX....XXX.XXX..X.XX..X.XX..XX
+ X...X.X*X......X.....X.X....X
+ X...X.XXX..XXXXX..XXXX.X....X
+ XXXXX...XXXXX..XXXXXXX.XXXXXX
+ X...X.X.X**X...............X
+XX.X.X...X**X..XXXXXXX..XX..X
+X....XXXXXXXXX..X....XXXXX.XXX
+X.X.............X.J........X*X
+X...XXXXXXXXX..XXX.MXXXXX..X*X
+XXXXX       XXXX XXXX   XXXXXX
